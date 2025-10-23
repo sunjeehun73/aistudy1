@@ -1,0 +1,25 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+
+# 1. IDE 관련 파일 (가장 중요)
+# JetBrains IDEs (PyCharm, IntelliJ) 설정 폴더 및 파일
+.idea/
+*.iml
+
+# 2. Python 컴파일/캐시 파일
+# 바이트코드, 캐시 파일
+__pycache__/
+*.pyc
+
+# 3. 가상 환경 폴더
+# 일반적으로 'venv' 또는 'env'로 설정합니다.
+venv/
+env/
+
+# 5. 민감한 정보 파일 (보안)
+# API 키나 비밀번호가 들어있는 파일 (절대 커밋 금지)
+.env
+config.ini
