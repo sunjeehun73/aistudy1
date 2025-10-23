@@ -15,7 +15,7 @@ instructions = """
 마지막으로 페스토를 그릇에 옮기고 파르메산 치즈 간 것을 넣고 저어줍니다. 
 """
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
